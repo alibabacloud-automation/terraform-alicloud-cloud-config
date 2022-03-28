@@ -3,7 +3,7 @@ Terraform module which creates Cloud Config resources on Alibaba Cloud.
 terraform-alicloud-cloud-config
 =====================================================================
 
-[English](README.md) | 简体中文
+[English](https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-config/blob/main/README.md) | 简体中文
 
 本 Module 用于自动化创建审计规则和合规包，包含：`Config`。
 
