@@ -12,4 +12,3 @@ tag_value_scope            = "tag-update-value-test"
 compliance_pack_name        = "tf_update_test_config_compliance_pack"
 compliance_pack_description = "tf_update_test_config_compliance_pack"
 compliance_pack_risk_level  = 2
-config_rule_ids             = [{ config_rule_id : "cr-d52cad75605700f03ae3" }]
