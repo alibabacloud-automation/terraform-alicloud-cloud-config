@@ -27,6 +27,5 @@ module "example" {
   compliance_pack_name        = var.compliance_pack_name
   compliance_pack_description = var.compliance_pack_description
   compliance_pack_risk_level  = var.compliance_pack_risk_level
-  config_rule_ids             = var.config_rule_ids
 
 }

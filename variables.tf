@@ -131,6 +131,6 @@ variable "compliance_pack_risk_level" {
 
 variable "config_rule_ids" {
   description = "A list of Config Rule IDs"
-  type        = list(map(string))
+  type        = list(string)
   default     = []
 }

@@ -87,10 +87,3 @@ variable "compliance_pack_risk_level" {
   type        = number
   default     = 3
 }
-
-variable "config_rule_ids" {
-  description = "A list of Config Rule IDs"
-  type        = list(map(string))
-  default = [{ config_rule_id : "cr-d52cad75605700f03ae3" },
-  { config_rule_id : "cr-d544ad75605700c3a263" }]
-}

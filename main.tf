@@ -22,9 +22,9 @@ resource "alicloud_config_compliance_pack" "compliance_pack" {
   description          = var.compliance_pack_description
   risk_level           = var.compliance_pack_risk_level
   dynamic "config_rule_ids" {
-    for_each = var.config_rule_ids
+    for_each = local.this_config_rule_ids
     content {
-      config_rule_id = lookup(config_rule_ids.value, "config_rule_id", null)
+      config_rule_id = config_rule_ids.value
     }
   }
 }
