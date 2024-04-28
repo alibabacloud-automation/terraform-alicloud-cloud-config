@@ -1,5 +1,4 @@
 #alicloud_config_rule
-resource_types_scope       = []
 rule_description           = "tf_update_test_config_rule"
 input_parameters           = { "vpcIds" : "vpc-updatesw4ctjd******" }
 rule_risk_level            = 2
